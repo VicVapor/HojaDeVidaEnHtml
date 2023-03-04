@@ -3,6 +3,14 @@ body {
     margin: 0px;
 }
 
+.white-titles {
+    color: white;
+}
+
+.white-text {
+    color: white;
+}
+
 /*Editando el header*/
 #header {
     height: 20vh;
@@ -24,45 +32,90 @@ body {
     color: white;
 }
 
-.tittle h1{
+.tittle h1 {
     font-size: 40px;
     margin-top: 20px;
     margin-bottom: 10px;
     border-bottom: solid 2px white;
 }
 
-.tittle h3{
+.tittle h3 {
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-.profile{
+.profile {
     background-color: rgb(19, 111, 137);
     display: flex;
     color: white;
     border-radius: 10px;
 }
 
-.profile h5{
+.profile h5 {
     margin: 10px 50px 10px 50px;
     font-weight: normal;
 }
 
 /*Editando el body*/
-#body{
+#body {
     display: flex;
     height: 80vh;
     background-color: purple;
 }
 
-.section-about-me{
+.section-about-me {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(29, 45, 58);
     width: 30%;
     height: 100%;
+    align-items: center;
 }
 
-.section-principal{
+.double-border {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border: solid 3px white;
+    border-radius: 50%;
+    width: 40%;
+    height: 30%;
+}
+
+.section-about-me img {
+    /*margin: 3px;*/
+    border-radius: 50%;
+    width: 98%;
+    height: 98%;
+    border: solid 3px rgb(29, 45, 58);
+}
+
+.section-about-me h2 {
+    margin: 10px 10px;
+    border-bottom: solid 1px white;
+}
+
+#description {
+    margin: 10px 30px 10px 30px;
+}
+
+.data-type {
+    color: rgb(148, 162, 176);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.answer {
+    color: white;
+    margin: 0 0 10px 0;
+}
+
+.contact i{
+    margin: 5px;
+}
+
+.section-principal {
     background-color: white;
     width: 70%;
     height: 100%;
