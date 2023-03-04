@@ -132,6 +132,7 @@ body {
 }
 
 .section-principal i {
+    display: flex;
     background-color: rgb(20, 110, 129);
     color: white;
     margin-right: 20px;
@@ -184,6 +185,9 @@ body {
 }
 
 .animated-gear{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0;
     margin: 0 17px 0 0;
     width: 40px;
